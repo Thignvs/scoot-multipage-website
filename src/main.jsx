@@ -8,7 +8,9 @@ import Careers from './pages/Careers.jsx'
 import Locations from './pages/Locations.jsx'
 import Home from './pages/Home.jsx'
 
-const router = createBrowserRouter([
+
+
+const routes = [
   {
     path: "/",
     element: <App />,
@@ -28,13 +30,18 @@ const router = createBrowserRouter([
         element: <Locations />
       },]
   },
-])
+]
+
+const router = createBrowserRouter(routes, { basename: import.meta.env.DEV ? '/' : '/scoot-multipage-website/' });
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router={router} />
   </React.StrictMode>,
 )
+
+
+
 
 // import React from 'react';
 // import ReactDOM from 'react-dom';
@@ -45,6 +52,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 // import Careers from './pages/Careers';
 // import Locations from './pages/Locations';
 // import Home from './pages/Home';
+
+
 
 // ReactDOM.createRoot(document.getElementById('root')).render(
 //   <React.StrictMode>

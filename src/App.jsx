@@ -3,14 +3,20 @@ import NavBar from './components/NavBar'
 import Footer from './components/Footer'
 
 
+
 function App() {
+
+  
+
 
   return (
     <>
-        <nav>
-          <NavBar />
-        </nav>
-        <Outlet />
+
+
+      <nav>
+        <NavBar />
+      </nav>
+      <Outlet />
       <footer>
         <Footer />
       </footer>
