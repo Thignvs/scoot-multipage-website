@@ -11,7 +11,6 @@ const NavBar = () => {
                 <div className='md:mr-auto flex'>
                     <Link to="/"><img className='mx-auto my-9 md:ml-10' src={logo} alt="logo" /></Link>
                     <ul className='hidden md:flex md:justify-center md:items-center md:ml-5'>
-                    {/* <Link to="/"><li className='p-3 text-DimGrey font-headings text-xl cursor-pointer hover:text-Yellow'>Home</li></Link> */}
                     <Link to="/about"><li className='p-3 text-DimGrey font-headings text-xl cursor-pointer hover:text-Yellow'>About</li></Link>
                     <Link to="/locations"><li className='p-3 text-DimGrey font-headings text-xl cursor-pointer hover:text-Yellow'>Locations</li></Link>
                     <Link to="/careers"><li className='p-3 text-DimGrey font-headings text-xl cursor-pointer hover:text-Yellow'>Careers</li></Link>
