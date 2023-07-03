@@ -20,18 +20,18 @@ export default {
     },
     extend: {
       backgroundImage: {
-        'hero-bg': "url('./src/assets/images/home-hero-mobile.jpg')",
-        'hero-bg-tablet': "url('./src/assets/images/home-hero-tablet.jpg')",
-        'hero-bg-desktop': "url('./src/assets/images/home-hero-desktop.jpg')",
+        'hero-bg': "url('/src/assets/images/home-hero-mobile.jpg')",
+        'hero-bg-tablet': "url('/src/assets/images/home-hero-tablet.jpg')",
+        'hero-bg-desktop': "url('/src/assets/images/home-hero-desktop.jpg')",
         'hero-about-bg': "url('/src/assets/images/about-hero-mobile.jpg')",
-        'hero-about-bg-tablet': "url('./src/assets/images/about-hero-tablet.jpg')",
-        'hero-about-bg-desktop': "url('./src/assets/images/about-hero-desktop.jpg')",
+        'hero-about-bg-tablet': "url('/src/assets/images/about-hero-tablet.jpg')",
+        'hero-about-bg-desktop': "url('/src/assets/images/about-hero-desktop.jpg')",
 
-        'hero-careers-bg': "url('./src/assets/images/careers-location-hero-mobile.jpg')",
-        'hero-careers-bg-tablet': "url('./src/assets/images/careers-locations-hero-tablet.jpg')",
-        'hero-careers-bg-desktop': "url('./src/assets/images/careers-locations-hero-desktop.jpg')",
+        'hero-careers-bg': "url('/src/assets/images/careers-location-hero-mobile.jpg')",
+        'hero-careers-bg-tablet': "url('/src/assets/images/careers-locations-hero-tablet.jpg')",
+        'hero-careers-bg-desktop': "url('/src/assets/images/careers-locations-hero-desktop.jpg')",
 
-        'bg-pattern-semicircle': "url('./src/assets/patterns/semi-circles.svg')",
+        'bg-pattern-semicircle': "url('/src/assets/patterns/semi-circles.svg')",
       }
     },
   },
