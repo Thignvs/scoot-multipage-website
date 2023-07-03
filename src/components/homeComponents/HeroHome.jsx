@@ -7,7 +7,7 @@ import line from '../../assets/patterns/line.svg'
 
 const HeroHome = () => {
     return (
-        <div className="bg-[url('./src/assets/images/home-hero-mobile.jpg')] bg-cover bg-no-repeat py-20 flex flex-col relative z-0 pb-[90px] md:py-[120px] md:bg-[url('./src/assets/images/home-hero-tablet.jpg')] lg:bg-[url('./src/assets/images/home-hero-desktop.jpg')] overflow-hidden">
+        <div className="bg-hero-bg bg-cover bg-no-repeat py-20 flex flex-col relative z-0 pb-[90px] md:py-[120px] md:bg-hero-bg-tablet lg:bg-hero-bg-desktop overflow-hidden">
             <h1 className='font-headings text-[40px] text-Snow px-6 text-center md:text-[56px] md:px-10 md:leading-[56px] lg:text-start lg:px-20 lg:ml-20 lg:w-3/5 xl:w-2/5'>Scooter sharing made simple</h1>
             <h2 className='text-center text-Snow px-7 my-5 text-[15px] leading-7 md:px-20 lg:text-start lg:ml-48 lg:mt-20 lg:w-3/5 xl:w-[30%]'>Scoot takes the hassle out of urban mobility. Our bikes are placed in convenient
                 locations in each of our cities. Use our app to locate the nearest bike, unlock
