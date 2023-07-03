@@ -23,7 +23,7 @@ export default {
         'hero-bg': "url('./src/assets/images/home-hero-mobile.jpg')",
         'hero-bg-tablet': "url('./src/assets/images/home-hero-tablet.jpg')",
         'hero-bg-desktop': "url('./src/assets/images/home-hero-desktop.jpg')",
-        'hero-about-bg': "url('./src/assets/images/about-hero-mobile.jpg')",
+        'hero-about-bg': "url('/src/assets/images/about-hero-mobile.jpg')",
         'hero-about-bg-tablet': "url('./src/assets/images/about-hero-tablet.jpg')",
         'hero-about-bg-desktop': "url('./src/assets/images/about-hero-desktop.jpg')",
 
