@@ -19,6 +19,9 @@ function App() {
 }
 
 export default App
+
+
+
 // import React from 'react';
 // import { Outlet, Route } from 'react-router-dom';
 // import NavBar from './components/NavBar';
